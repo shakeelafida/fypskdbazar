@@ -17,7 +17,7 @@ class BottomContainer extends StatelessWidget {
       child: Container(
         height: 290,
         width: 220,
-        decoration: BoxDecoration(
+        decoration: const BoxDecoration(
           color: Color(0xff3a3e3e),
           // borderRadius: BorderRadius.circular(10)
         ),
@@ -40,7 +40,7 @@ class BottomContainer extends StatelessWidget {
               padding: const EdgeInsets.all(15.0),
               child: Text(
                 name,
-                style: TextStyle(fontSize: 15, color: Colors.white),
+                style: const TextStyle(fontSize: 15, color: Colors.white),
               ),
             ),
             // ListTile(

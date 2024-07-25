@@ -1,0 +1,66 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: auto;
+    overflow-y: auto;
+    display: block;
+    left: 0;
+    right: 0;
+    height: 100%;
+}
+
+#container {
+    min-width: 100%;
+    min-height: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
+    background-color: var(--white);
+}
+
+#loading {
+    position: absolute;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    left: 50%;
+    top: 50%;
+    opacity: 0.8;
+    z-index: 99;
+  }
+  
+  #loading-image {
+    z-index: 100;
+  }
+
+.messagebox-main {
+    height: 100%;
+}
+
+.messagebox-body {
+    width: 100%;
+}
+
+.messagebox-text {
+    width: 95%;
+    text-align: justify;
+    padding: 20px;
+}
+
+#learnmore-buttons-stack {
+    padding: 8px 24px 20px 20px;
+    width: 100%;
+}
+
+#learnmore-stack {
+    padding: 6px 8px 6px 8px;
+}
+
+.header{
+    width: 100%;
+    padding-top: 8px;
+}
+
+.header-text{
+    padding-left: 20px;
+}
